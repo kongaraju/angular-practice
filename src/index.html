@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+    <head>
+        <base href="/">
+        <title>Angular4 Practice</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="systemjs.config.js"></script>
+        <script>
+            System.import('main.js').catch((err)=>{console.log(err);});
+        </script>
+    </head>
+    <body>
+        <my-app>Loading content here...</my-app>
+    </body>
+</html>
